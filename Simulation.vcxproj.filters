@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\TimeEvent">
+      <UniqueIdentifier>{cc329197-c586-4c7a-b5a0-14c4be8a3e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{fa0b5690-90dc-4400-959f-aaf788a86385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generators">
+      <UniqueIdentifier>{7603d55a-22b4-42e1-b800-e5a36e50e509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TimeEvent">
+      <UniqueIdentifier>{5ed9013d-4d8f-43bd-a2ec-2b9bb14d8f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{f0f9761d-0001-4c36-907d-9495887a4f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Source">
+      <UniqueIdentifier>{c194d3aa-9aba-441c-a50a-a7a3990eb687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source">
+      <UniqueIdentifier>{4effa20f-1843-4e2b-b243-317b70d36b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event">
+      <UniqueIdentifier>{1312d8c7-1069-417e-98ab-d1d7628d8a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generators">
+      <UniqueIdentifier>{16c5a72b-75b5-4cfb-8a5e-06f5e229006c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Calendar">
+      <UniqueIdentifier>{494ff54e-57ae-4f7a-9ed8-91b82d7ed06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event">
+      <UniqueIdentifier>{dfdc36e8-9cb2-4c97-b227-cdde9bbc744a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Calendar">
+      <UniqueIdentifier>{dd2ce732-26c0-4b3c-b369-b08017e01e6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="queue_of_patients.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="queue_of_blood.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="blood_transfusion.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="one_event.h">
+      <Filter>Header Files\Calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="blood_order.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="emergency_blood_order.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="exponential_distribution.h">
+      <Filter>Header Files\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="geometric_distribution.h">
+      <Filter>Header Files\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_distribution.h">
+      <Filter>Header Files\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="test_generators.h">
+      <Filter>Header Files\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="uniform_distribution.h">
+      <Filter>Header Files\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_of_blood.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="patient.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="donor.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="accident.h">
+      <Filter>Header Files\TimeEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="destruction_of_blood_.h">
+      <Filter>Header Files\TimeEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="provision_of_blood.h">
+      <Filter>Header Files\TimeEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="to_arise_donor.h">
+      <Filter>Header Files\TimeEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="to_arise_patient.h">
+      <Filter>Header Files\TimeEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="statistics.h">
+      <Filter>Header Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation_main_code.h">
+      <Filter>Header Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="blood_donation_point.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation_time.h">
+      <Filter>Header Files\Calendar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="queue_of_patients.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_of_blood.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="blood_transfusion.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="one_event.cpp">
+      <Filter>Source Files\Calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="blood_order.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="emergency_blood_order.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="exponential_distribution.cpp">
+      <Filter>Source Files\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="geometric_distribution.cpp">
+      <Filter>Source Files\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_distribution.cpp">
+      <Filter>Source Files\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="test_generators.cpp">
+      <Filter>Source Files\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="uniform_distribution.cpp">
+      <Filter>Source Files\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_of_blood.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="patient.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="donor.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="accident.cpp">
+      <Filter>Source Files\TimeEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="destruction_of_blood.cpp">
+      <Filter>Source Files\TimeEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="provision_of_blood.cpp">
+      <Filter>Source Files\TimeEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="to_arise_donor.cpp">
+      <Filter>Source Files\TimeEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="to_arise_patient.cpp">
+      <Filter>Source Files\TimeEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation_main_code.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="blood_donation_point.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation_time.cpp">
+      <Filter>Source Files\Calendar</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
